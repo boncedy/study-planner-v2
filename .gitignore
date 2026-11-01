@@ -1,0 +1,17 @@
+# Local environment files; keep the example templates tracked.
+.env
+.env.*
+!.env.example
+
+# Dependencies, virtual environments, caches, and generated files.
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+*.log
+
+# Personal VS Code settings and exported report PDFs.
+.vscode/
+*_lab12.pdf
+*_lab12.PDF
